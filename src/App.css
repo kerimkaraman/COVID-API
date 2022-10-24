@@ -1,0 +1,17 @@
+.items {
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.input-area {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.input-area input {
+    font-size: 1.5rem;
+    margin-left: 12rem;
+}

@@ -1,0 +1,40 @@
+.welcome {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: #0B1928;
+}
+
+.welcome p {
+    font-size: 5rem;
+    display: block;
+    margin: 0rem auto;
+    text-align: center;
+}
+
+.welcome .divvv {
+    width: max-content;
+    position: relative;
+    margin: 0rem auto;
+    padding: 40vh 0rem;
+}
+
+.welcome .divvv span {
+    width: 40rem;
+    height: 5vh;
+    background-color: #fff;
+    color: #0B1928;
+    margin-top: 1rem;
+    animation-name: example;
+    animation-duration: 2s;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes example {
+    from {width: 0px; background-color: #fff;}
+    to { width: 40rem; background-color: #fff;}
+}

@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 2rem 0rem;
+}
+
+.header p {
+    font-size: 2rem;
+    width: max-content;
+    margin: 0 auto;
+}
