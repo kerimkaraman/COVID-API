@@ -30,7 +30,7 @@ function App() {
           data.map((val) => {
             return (
               Object.values(val).map((datas) => {
-                const { NewCases, NewDeaths, TwoLetterSymbol, NewRecovered, Population, rank, TotalTests, TotalRecovered, TotalDeaths, TotalCases, Country } = datas;
+                const { NewCases, NewDeaths, TwoLetterSymbol, NewRecovered, rank, TotalTests, TotalRecovered, TotalDeaths, TotalCases, Country } = datas;
                 console.log(datas)
                 return (
                   <Card
